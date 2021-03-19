@@ -5,7 +5,7 @@ This project is based on [detectron2](https://github.com/facebookresearch/maskrc
 
 Introduction
 -----------------
-[Mask Scoring R-CNN](https://arxiv.org/pdf/1903.00241.pdf) contains a network block to learn the quality of the predicted instance masks. The proposed network block takes the instance feature and the corresponding predicted mask together to regress the mask IoU. The mask scoring strategy calibrates the misalignment between mask quality and mask score, and improves instance segmentation performance by prioritizing more accurate mask predictions during COCO AP evaluation. By extensive evaluations on the COCO dataset, Mask Scoring R-CNN brings consistent and noticeable gain with different models and different frameworks. The network of MS R-CNN is as follows:
+[BCNet](https://arxiv.org/pdf/1903.00241.pdf) contains a network block to learn the quality of the predicted instance masks. The proposed network block takes the instance feature and the corresponding predicted mask together to regress the mask IoU. The mask scoring strategy calibrates the misalignment between mask quality and mask score, and improves instance segmentation performance by prioritizing more accurate mask predictions during COCO AP evaluation. By extensive evaluations on the COCO dataset, Mask Scoring R-CNN brings consistent and noticeable gain with different models and different frameworks. The network of MS R-CNN is as follows:
 
 ![alt text](demo/network.png)
 
@@ -72,7 +72,7 @@ The work was done during an internship at [Horizon Robotics](http://en.horizon.a
 
 Citations
 ---------------
-If you find MS R-CNN useful in your research, please consider citing:
+If you find BCNet useful in your research, please consider citing:
 ```
 @inproceedings{huang2019msrcnn,
     author = {Zhaojin Huang and Lichao Huang and Yongchao Gong and Chang Huang and Xinggang Wang},
