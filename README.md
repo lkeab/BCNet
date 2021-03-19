@@ -3,7 +3,7 @@ CVPR 2021 Paper, [pdf](http://openaccess.thecvf.com/content_CVPR_2019/papers/Hua
 
 This project is based on [detectron2](https://github.com/facebookresearch/maskrcnn-benchmark).
 
-Under preparation. Our code and pretrained model will be released before CVPR takes place on June 19th .
+Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
 <!---
 Introduction
