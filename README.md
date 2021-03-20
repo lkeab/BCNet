@@ -5,6 +5,18 @@ This project is based on [detectron2](https://github.com/facebookresearch/maskrc
 
 Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
+Results
+------------
+| NetWork  | Method | mAP(mask) |
+|----------|--------|-----------|
+| ResNet-50 FPN | Mask R-CNN | 34.2 |
+| ResNet-50 FPN | MS R-CNN | 35.6 |
+| ResNet-50 FPN | PANet | 36.6 |
+| ResNet-50 FPN | BCNet | 38.4 |
+| ResNet-101 FPN | Mask R-CNN | 36.1 |
+| ResNet-101 FPN | MS R-CNN | 38.3 |
+| ResNet-101 FPN | BCNet | 39.8 |
+
 <!---
 Introduction
 -----------------
@@ -42,12 +54,14 @@ Multi-GPU Training
 ```
 Results
 ------------
-| NetWork  | Method | mAP(mask) | mAP(det)  |
-|----------|--------|-----------|-----------|
-| ResNet-50 FPN | Mask R-CNN | 34.2 | 37.8 |
-| ResNet-50 FPN | MS R-CNN | 35.6 | 37.9 |
-| ResNet-101 FPN | Mask R-CNN | 36.1 | 40.1 |
-| ResNet-101 FPN | MS R-CNN | 37.4 | 40.1 |
+| NetWork  | Method | mAP(mask) |
+|----------|--------|-----------|
+| ResNet-50 FPN | Mask R-CNN | 34.2 |
+| ResNet-50 FPN | MS R-CNN | 35.6 |
+| ResNet-50 FPN | BCNet | 38.4 |
+| ResNet-101 FPN | Mask R-CNN | 36.1 |
+| ResNet-101 FPN | MS R-CNN | 38.3 |
+| ResNet-101 FPN | BCNet | 39.8 |
 Visualization
 -------------
 ![alt text](demo/demo.png)
