@@ -6,9 +6,9 @@ This project is based on [detectron2](https://github.com/facebookresearch/maskrc
 Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
 ![alt text](fig_vis1.png)
-Qualitative instance segmentation results of our BCNet, both using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
+Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
 ![alt text](fig_vis2.png)
-Qualitative instance segmentation results of our BCNet, both using ResNet-101-FPN and Faster R-CNN detector.
+Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and Faster R-CNN detector.
 
 Results on COCO test-dev
 ------------
