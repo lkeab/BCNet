@@ -1,5 +1,5 @@
 # Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers [BCNet, CVPR 2021]
-CVPR 2021 Paper, [pdf](http://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Mask_Scoring_R-CNN_CVPR_2019_paper.pdf)
+CVPR 2021 Paper, [pdf]
 
 This project is based on [detectron2](https://github.com/facebookresearch/maskrcnn-benchmark).
 
