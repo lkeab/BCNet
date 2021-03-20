@@ -7,6 +7,7 @@ Under preparation. Our code and pretrained model will be fully released before C
 
 Results
 ------------
+(Check Table 8 of the paper for full results)
 Detector | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
 Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 |
@@ -14,7 +15,9 @@ Faster R-CNN| ResNet-50 FPN | MS R-CNN | 35.6 |
 Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
 Faster R-CNN| ResNet-50 FPN | **BCNet** | **38.4** |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 |
+Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 |
 Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
+Faster R-CNN| ResNet-101 FPN | HTC | 39.7 |
 Faster R-CNN| ResNet-101 FPN | **BCNet** | **39.8** |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 |
 FCOS| ResNet-101 FPN | CenterMask| 38.3 |
