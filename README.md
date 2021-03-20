@@ -1,8 +1,6 @@
 # Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers [BCNet, CVPR 2021]
 CVPR 2021 Paper, [pdf]
 
-This project is based on [detectron2](https://github.com/facebookresearch/maskrcnn-benchmark).
-
 Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
 ![alt text](fig_vis1.png)
