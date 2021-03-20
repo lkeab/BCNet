@@ -18,7 +18,7 @@ Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
 Faster R-CNN| ResNet-101 FPN | BCNet | 39.8 |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 |
 FCOS| ResNet-101 FPN | CenterMask| 38.3 |
-FCOS| ResNet-101 FPN | BCNet | 39.8 |
+FCOS| ResNet-101 FPN | BCNet | 39.6 |
 
 <!---
 Introduction
