@@ -17,7 +17,6 @@ Faster R-CNN| ResNet-50 FPN | **BCNet** | **38.4** |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 |
 Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 |
 Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
-Faster R-CNN| ResNet-101 FPN | HTC | 39.7 |
 Faster R-CNN| ResNet-101 FPN | **BCNet** | [**39.8**](https://github.com/lkeab/BCNet/blob/main/stdout_frcnn.txt) |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 |
 FCOS| ResNet-101 FPN | CenterMask| 38.3 |
