@@ -27,11 +27,13 @@ FCOS| ResNet-101 FPN | BlendMask | 38.4 |
 FCOS| ResNet-101 FPN | CenterMask| 38.3 |
 FCOS| ResNet-101 FPN | **BCNet** | [**39.6**](https://github.com/lkeab/BCNet/blob/main/stdout_fcos.txt)|
 
-<!---
+
 Introduction
 -----------------
-[BCNet](https://arxiv.org/pdf/1903.00241.pdf) contains a network block to learn the quality of the predicted instance masks. The proposed network block takes the instance feature and the corresponding predicted mask together to regress the mask IoU. The mask scoring strategy calibrates the misalignment between mask quality and mask score, and improves instance segmentation performance by prioritizing more accurate mask predictions during COCO AP evaluation. By extensive evaluations on the COCO dataset, Mask Scoring R-CNN brings consistent and noticeable gain with different models and different frameworks. The network of MS R-CNN is as follows:
-![alt text](demo/network.png)
+[BCNet](https://arxiv.org/pdf/1903.00241.pdf) Segmenting highly-overlapping objects is challenging, because typically no distinction is made between real object contours and occlusion boundaries. Unlike previous two-stage instance segmentation methods, BCNet models image formation as composition of two overlapping layers, where the top GCN layer detects the occluding objects (occluder) and the bottom GCN layer infers partially occluded instance (occludee). The explicit modeling of occlusion relationship with bilayer structure naturally decouples the boundaries of both the occluding and occluded instances, and considers the interaction between them during mask regression. We validate the efficacy of bilayer decoupling on both one-stage and two-stage object detectors with different backbones and network layer choices. Despite its simplicity, extensive experiments on COCO and KINS show that our occlusion-aware BCNet achieves large and consistent performance gain especially for heavy occlusion cases. The network of BCNet is as follows:
+![alt text](framework.png)
+
+<!---
 Install
 -----------------
   Check [INSTALL.md](INSTALL.md) for installation instructions.
