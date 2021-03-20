@@ -62,7 +62,7 @@ Citations
 If you find BCNet useful in your research, please consider citing:
 ```
 @inproceedings{ke2021bcnet,
-    author = {Lei Ke and Yu-Wing Tai and Chi-Keung Tang},
+    author = {Ke, Lei and Tai, Yu-Wing and Tang, Chi-Keung},
     title = {Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers},
     booktitle = {CVPR},
     year = {2021},
