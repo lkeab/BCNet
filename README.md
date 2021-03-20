@@ -5,9 +5,9 @@ This project is based on [detectron2](https://github.com/facebookresearch/maskrc
 
 Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
-Results
+Results on COCO test-dev
 ------------
-(Check Table 8 of the paper for full results)
+(Check Table 8 of the paper for full results, all methods are trained on COCO train2017)
 Detector | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
 Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 |
