@@ -16,19 +16,19 @@ Detector | Backbone  | Method | mAP(mask) |
 Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 |
 Faster R-CNN| ResNet-50 FPN | MS R-CNN | 35.6 |
 Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
-Faster R-CNN| ResNet-50 FPN | **BCNet** | **38.4** |
+**Faster R-CNN**| **ResNet-50 FPN** | **BCNet** | **38.4** |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 |
 Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 |
 Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
-Faster R-CNN| ResNet-101 FPN | **BCNet** | [**39.8**](https://github.com/lkeab/BCNet/blob/main/stdout_frcnn.txt) |
+**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](https://github.com/lkeab/BCNet/blob/main/stdout_frcnn.txt) |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 |
 FCOS| ResNet-101 FPN | CenterMask| 38.3 |
-FCOS| ResNet-101 FPN | **BCNet** | [**39.6**](https://github.com/lkeab/BCNet/blob/main/stdout_fcos.txt)|
+**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](https://github.com/lkeab/BCNet/blob/main/stdout_fcos.txt)|
 
 
 Introduction
 -----------------
-Segmenting highly-overlapping objects is challenging, because typically no distinction is made between real object contours and occlusion boundaries. Unlike previous two-stage instance segmentation methods, **BCNet** models image formation as composition of two overlapping layers, where the top GCN layer detects the occluding objects (occluder) and the bottom GCN layer infers partially occluded instance (occludee). The explicit modeling of occlusion relationship with bilayer structure naturally decouples the boundaries of both the occluding and occluded instances, and considers the interaction between them during mask regression. We validate the efficacy of bilayer decoupling on both one-stage and two-stage object detectors with different backbones and network layer choices. Despite its simplicity, extensive experiments on COCO and KINS show that our occlusion-aware BCNet achieves large and consistent performance gain especially for heavy occlusion cases. The network of BCNet is as follows:
+Segmenting highly-overlapping objects is challenging, because typically no distinction is made between real object contours and occlusion boundaries. Unlike previous two-stage instance segmentation methods, **BCNet** models image formation as composition of two overlapping layers, where the top GCN layer detects the occluding objects (occluder) and the bottom GCN layer infers partially occluded instance (occludee). **The explicit modeling of occlusion relationship with bilayer structure naturally decouples the boundaries of both the occluding and occluded instances, and considers the interaction between them during mask regression.** We validate the efficacy of bilayer decoupling on both one-stage and two-stage object detectors with different backbones and network layer choices. Despite its simplicity, extensive experiments on COCO and KINS show that our occlusion-aware BCNet achieves large and consistent performance gain especially for heavy occlusion cases. The network of BCNet is as follows:
 ![alt text](framework.png)
 
 <!---
