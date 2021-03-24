@@ -6,6 +6,7 @@ This is the official implementation of "*[Deep Occlusion-Aware Instance Segmenta
 - **Two-stage instance segmentation.**
 - **Bilayer decoupling for the occluder and occludee.**
 - **Simple occlusion handling module with large performance gain.**
+- **We provide BCNet with both the FCOS and Faster R-CNN detectors.**
 
 **Under preparation**. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
