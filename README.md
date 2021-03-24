@@ -1,12 +1,24 @@
 # Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers [BCNet, CVPR 2021]
-CVPR 2021 Paper, [pdf]
+
+
+This is the official implementation of "*[Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers (CVPR2021)](https://arxiv.org/abs/2103.12340)" built on the open-source detectron2.
+
+- **Two-stage method for image instance segmentation.**
+- **Bilayer decoupling for the occluder and occludee.**
+- **Simple module with large performance gain.**
 
 Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
-![alt text](fig_vis1.png)
+<table>
+    <tr>
+        <td ><center><img src="fig_vis1.png" height="180">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
-![alt text](fig_vis2.png)
+          </center></td>
+          <td ><center><img src="fig_vis2.png" height="180">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and Faster R-CNN detector.
+          </center></td>
+</tr>
+</table>
 
 Results on COCO test-dev
 ------------
