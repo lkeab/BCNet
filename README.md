@@ -13,7 +13,7 @@ This is the official implementation of "*[Deep Occlusion-Aware Instance Segmenta
 <table>
     <tr>
         <td><center><img src="fig_vis1.png" height="260">
-Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
+Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more **explainable** than previous methods.
           </center></td>
 </tr>
 </table>
