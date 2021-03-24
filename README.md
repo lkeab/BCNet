@@ -3,9 +3,9 @@
 
 This is the official implementation of "*[Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers (CVPR2021)](https://arxiv.org/abs/2103.12340)" built on the open-source detectron2.
 
-- **Two-stage method for image instance segmentation.**
+- **Two-stage instance segmentation.**
 - **Bilayer decoupling for the occluder and occludee.**
-- **Simple module with large performance gain.**
+- **Simple occlusion handling module with large performance gain.**
 
 Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
