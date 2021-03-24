@@ -4,6 +4,7 @@
 This is the official implementation of "*[Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers (CVPR2021)](https://arxiv.org/abs/2103.12340)*" built on the open-source detectron2.
 
 - **Two-stage instance segmentation.**
+- **Image formation as composition of two overlapping layers**
 - **Bilayer decoupling for the occluder and occludee.**
 - **Simple occlusion handling module with large performance gain.**
 - **We provide BCNet with both the FCOS and Faster R-CNN detector implementations.**
