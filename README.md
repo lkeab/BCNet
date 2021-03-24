@@ -31,6 +31,7 @@ Detector | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
 Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 |
 Faster R-CNN| ResNet-50 FPN | MS R-CNN | 35.6 |
+Faster R-CNN| ResNet-50 FPN | PointRend | 36.3 |
 Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
 **Faster R-CNN**| **ResNet-50 FPN** | **BCNet** | **38.4** |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 |
