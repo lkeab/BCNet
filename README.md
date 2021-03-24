@@ -11,10 +11,14 @@ Under preparation. Our code and pretrained model will be fully released before C
 
 <table>
     <tr>
-        <td ><center><img src="fig_vis1.png" height="180">
+        <td><center><img src="fig_vis1.png" height="180">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
           </center></td>
-          <td ><center><img src="fig_vis2.png" height="180">
+</tr>
+</table>
+<table>
+    <tr>
+          <td><center><img src="fig_vis2.png" height="180">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and Faster R-CNN detector.
           </center></td>
 </tr>
