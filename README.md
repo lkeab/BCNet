@@ -7,7 +7,7 @@ This is the official implementation of "*[Deep Occlusion-Aware Instance Segmenta
 - **Bilayer decoupling for the occluder and occludee.**
 - **Simple occlusion handling module with large performance gain.**
 
-Under preparation. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
+**Under preparation**. Our code and pretrained model will be fully released before CVPR takes place on June 19th .
 
 <table>
     <tr>
