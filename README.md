@@ -48,7 +48,6 @@ FCOS| ResNet-101 FPN | CenterMask| 38.3 |
 Introduction
 -----------------
 Segmenting highly-overlapping objects is challenging, because typically no distinction is made between real object contours and occlusion boundaries. Unlike previous two-stage instance segmentation methods, **BCNet** models image formation as composition of two overlapping layers, where the top GCN layer detects the occluding objects (occluder) and the bottom GCN layer infers partially occluded instance (occludee). **The explicit modeling of occlusion relationship with bilayer structure naturally decouples the boundaries of both the occluding and occluded instances, and considers the interaction between them during mask regression.** We validate the efficacy of bilayer decoupling on both one-stage and two-stage object detectors with different backbones and network layer choices. The network of BCNet is as follows:
-
 <center>
 <table>
     <tr>
@@ -56,6 +55,10 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
     </tr>
 </table>
 </center>
+
+## Installation
+Install [detectron2](https://github.com/facebookresearch/detectron2) following [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).  Prepare for coco dataset following [this instruction](https://github.com/facebookresearch/detectron2/tree/master/datasets).
+
 <!---
 Install
 -----------------
