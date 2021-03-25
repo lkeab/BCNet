@@ -57,7 +57,14 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
 </center>
 
 ## Installation
-Install [detectron2](https://github.com/facebookresearch/detectron2) following [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).  Prepare for coco dataset following [this instruction](https://github.com/facebookresearch/detectron2/tree/master/datasets).
+Install [detectron2](https://github.com/facebookresearch/detectron2) following [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).  Prepare for coco2017 dataset following [this instruction](https://github.com/facebookresearch/detectron2/tree/master/datasets).
+```
+  mkdir -p datasets/coco
+  ln -s /path_to_coco_dataset/annotations datasets/coco/annotations
+  ln -s /path_to_coco_dataset/train2014 datasets/coco/train2014
+  ln -s /path_to_coco_dataset/test2014 datasets/coco/test2014
+  ln -s /path_to_coco_dataset/val2014 datasets/coco/val2014
+```
 
 <!---
 Install
