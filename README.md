@@ -12,14 +12,14 @@ This is the official implementation of "*[Deep Occlusion-Aware Instance Segmenta
 
 <table>
     <tr>
-        <td><center><img src="fig_vis1.png" height="260">
+        <td><center><img src="demo/fig_vis1.png" height="260">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
           </center></td>
 </tr>
 </table>
 <table>
     <tr>
-          <td><center><img src="fig_vis2.png" height="260">
+          <td><center><img src="demo/fig_vis2.png" height="260">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and Faster R-CNN detector.
           </center></td>
 </tr>
@@ -38,11 +38,11 @@ Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 |
 Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 |
 Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
-**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](https://github.com/lkeab/BCNet/blob/main/stdout_frcnn.txt) |
+**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](scores/stdout_frcnn.txt) |
 FCOS| ResNet-101 FPN | SipMask | 37.8 |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 |
 FCOS| ResNet-101 FPN | CenterMask| 38.3 |
-**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](https://github.com/lkeab/BCNet/blob/main/stdout_fcos.txt)|
+**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt)|
 
 
 Introduction
