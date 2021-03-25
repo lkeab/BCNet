@@ -59,7 +59,7 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
 ## Installation
 Install [detectron2](https://github.com/facebookresearch/detectron2) following [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).  Prepare for coco2017 dataset following [this instruction](https://github.com/facebookresearch/detectron2/tree/master/datasets).
 
-Please use our converted mask annotations (https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EW2ZVyev7e5Pr1fVfF2nn18BRod82j_jW5Z4ywYd1evq8Q?e=qj0Bbm) for bilayer decoupling training.
+Please use our [converted mask annotations](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EW2ZVyev7e5Pr1fVfF2nn18BRod82j_jW5Z4ywYd1evq8Q?e=qj0Bbm) for bilayer decoupling training.
 ```
   mkdir -p datasets/coco
   ln -s /path_to_coco_dataset/annotations datasets/coco/annotations
