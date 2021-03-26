@@ -63,8 +63,35 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
 </table>
 </center>
 
-## Installation
-Install [detectron2](https://github.com/facebookresearch/detectron2) following [INSTALL.md](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).  Prepare for coco2017 dataset following [this instruction](https://github.com/facebookresearch/detectron2/tree/master/datasets).
+## Step-by-step Installation
+```
+conda create -n bcnet python=3.7 -y
+source activate bcnet
+ 
+conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch
+ 
+# FCOS and coco api and visualization dependencies
+pip install ninja yacs cython matplotlib tqdm
+pip install opencv-python==4.4.0.40
+ 
+export INSTALL_DIR=$PWD
+ 
+# install pycocotools. Please make sure you have installed cython.
+cd $INSTALL_DIR
+git clone https://github.com/cocodataset/cocoapi.git
+cd cocoapi/PythonAPI
+python setup.py build_ext install
+ 
+# install BCNet
+cd $INSTALL_DIR
+git clone https://github.com/lkeab/BCNet.git
+cd BCNet/
+python3 setup.py build develop
+ 
+unset INSTALL_DIR
+```
+
+Prepare for coco2017 dataset following [this instruction](https://github.com/facebookresearch/detectron2/tree/master/datasets).
 
 Please use our [converted mask annotations](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EW2ZVyev7e5Pr1fVfF2nn18BRod82j_jW5Z4ywYd1evq8Q?e=qj0Bbm) to replace original annotation file for bilayer decoupling training.
 
