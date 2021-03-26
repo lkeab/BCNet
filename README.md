@@ -123,7 +123,7 @@ The work was done during an internship at [Horizon Robotics](http://en.horizon.a
 
 Citations
 ---------------
-If you find BCNet useful in your research, please consider citing:
+If you find BCNet useful in your research, please star this repository and consider citing:
 ```
 @inproceedings{ke2021bcnet,
     author = {Ke, Lei and Tai, Yu-Wing and Tang, Chi-Keung},
