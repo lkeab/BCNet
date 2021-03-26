@@ -6,7 +6,7 @@ This is the official implementation of "*[Deep Occlusion-Aware Instance Segmenta
 - **Two-stage instance segmentation.**
 - **Image formation as composition of two overlapping layers.**
 - **Bilayer decoupling for the occluder and occludee.**
-- **Simple occlusion handling module with large performance gain (both on the FCOS and Faster R-CNN detectors).**
+- **Explicit occlusion handling module with large performance gain (both on the FCOS and Faster R-CNN detectors).**
 
 **Under preparation**. Our code and pretrained model will be fully released before CVPR takes places .
 
