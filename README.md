@@ -7,10 +7,10 @@ This is the official implementation of *[BCNet](https://arxiv.org/abs/2103.12340
 > Lei Ke, Yu-Wing Tai, Chi-Keung Tang    
 > *CVPR2021*  
 
-- **Two-stage instance segmentation.**
+- **Two-stage instance segmentation with state-of-the-art performance.**
 - **Image formation as composition of two overlapping layers.**
 - **Bilayer decoupling for the occluder and occludee.**
-- **Explicit occlusion handling module with large performance gain (both on the FCOS and Faster R-CNN detectors).**
+- **Implementations both on the FCOS and Faster R-CNN detectors.**
 
 **Under preparation**. Our code and pretrained model will be fully released in two months.
 
