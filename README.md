@@ -150,23 +150,6 @@ Multi-GPU Training
   export NGPUS=8
   python -m torch.distributed.launch --nproc_per_node=$NGPUS tools/train_net.py --config-file "configs/e2e_ms_rcnn_R_50_FPN_1x.yaml" 
 ```
-Results
-------------
-| NetWork  | Method | mAP(mask) |
-|----------|--------|-----------|
-| ResNet-50 FPN | Mask R-CNN | 34.2 |
-| ResNet-50 FPN | MS R-CNN | 35.6 |
-| ResNet-50 FPN | BCNet | 38.4 |
-| ResNet-101 FPN | Mask R-CNN | 36.1 |
-| ResNet-101 FPN | MS R-CNN | 38.3 |
-| ResNet-101 FPN | BCNet | 39.8 |
-Visualization
--------------
-![alt text](demo/demo.png)
-The left four images show good detection results with high classification scores but low mask quality. Our method aims at solving this problem. The rightmost image shows the case of a good mask with a high classification score. Our method will retrain the high score. As can be seen, scores predicted by our model can better interpret the actual mask quality.
-Acknowledgment
--------------
-The work was done during an internship at [Horizon Robotics](http://en.horizon.ai/).
 -->
 
 Citations
