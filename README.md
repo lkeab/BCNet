@@ -12,7 +12,7 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 - **Bilayer decoupling for the occluder and occludee.**
 - **Efficacy both on the FCOS and Faster R-CNN detectors.**
 
-**Under preparation**. Our code and pretrained model will be fully released in two months.
+**Under construction**. Our code and pretrained model will be fully released in two months.
 
 
 Visualization of Occluded Objects
