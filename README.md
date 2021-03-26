@@ -19,14 +19,14 @@ Visualization
 -----------------
 <table>
     <tr>
-        <td><center><img src="demo/fig_vis2.png" height="260">
+        <td><center><img src="demo/fig_vis2_new.png" height="260">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and Faster R-CNN detector. The bottom row visualizes squared heatmap of contour and mask predictions by the two GCN layers for the occluder and occludee in the same ROI region specified by the red bounding box, which also makes the final segmentation result of BCNet more explainable than previous methods.
           </center></td>
 </tr>
 </table>
 <table>
     <tr>
-          <td><center><img src="demo/fig_vis1.png" height="260">
+          <td><center><img src="demo/fig_vis1_new.png" height="260">
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector.
           </center></td>
 </tr>
@@ -58,7 +58,7 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
 <center>
 <table>
     <tr>
-          <td><center><img src="demo/framework.png" height="400"></center></td>
+          <td><center><img src="demo/framework_new.png" height="400"></center></td>
     </tr>
 </table>
 </center>
