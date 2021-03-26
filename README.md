@@ -74,6 +74,7 @@ Please use our [converted mask annotations](https://hkustconnect-my.sharepoint.c
 
 Pretrained Models
 ---------------
+TBD
 ```
   mkdir pretrained_models
   #The pretrained models will be downloaded when running the program.
@@ -153,5 +154,4 @@ License
 ---------------
 BCNet is released under the MIT license. See [LICENSE](LICENSE) for additional details.
 Thanks to the Third Party Libs
----------------  
 [detectron2](https://github.com/facebookresearch/detectron2)    
