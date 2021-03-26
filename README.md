@@ -15,7 +15,7 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 **Under preparation**. Our code and pretrained model will be fully released in two months.
 
 
-Visualization
+Visualization of Occluded Objects
 -----------------
 <table>
     <tr>
