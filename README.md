@@ -10,6 +10,9 @@ This is the official implementation of "*[Deep Occlusion-Aware Instance Segmenta
 
 **Under preparation**. Our code and pretrained model will be fully released before CVPR takes places .
 
+
+Visualization
+-----------------
 <table>
     <tr>
         <td><center><img src="demo/fig_vis1.png" height="260">
