@@ -10,7 +10,7 @@ This is the official implementation of *[BCNet](https://arxiv.org/abs/2103.12340
 - **Two-stage instance segmentation with state-of-the-art performance.**
 - **Image formation as composition of two overlapping layers.**
 - **Bilayer decoupling for the occluder and occludee.**
-- **Implementations both on the FCOS and Faster R-CNN detectors.**
+- **Efficacy both on the FCOS and Faster R-CNN detectors.**
 
 **Under preparation**. Our code and pretrained model will be fully released in two months.
 
