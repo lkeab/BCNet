@@ -1,9 +1,9 @@
 # Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers [BCNet, CVPR 2021]
 
 
-This is the official implementation of "*[Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers (CVPR2021)](https://arxiv.org/abs/2103.12340)*" built on the open-source detectron2.
+This is the official implementation of "*[BCNet](https://arxiv.org/abs/2103.12340)*" built on the open-source detectron2.
 
-> [**Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**](https://arxiv.org/abs/2103.12340),            
+> [**Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**](https://arxiv.org/abs/2103.12340)           
 > Lei Ke, Yu-Wing Tai, Chi-Keung Tang&auml;henb&uuml;hl,        
 > *CVPR2021*  
 
