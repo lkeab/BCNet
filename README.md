@@ -37,21 +37,21 @@ Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and
 Results on COCO test-dev
 ------------
 (Check Table 8 of the paper for full results, all methods are trained on COCO train2017)
-Detector | Backbone  | Method | mAP(mask) |
-|--------|----------|--------|-----------|
-Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 |
-Faster R-CNN| ResNet-50 FPN | MS R-CNN | 35.6 |
-Faster R-CNN| ResNet-50 FPN | PointRend | 36.3 |
-Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
-**Faster R-CNN**| **ResNet-50 FPN** | **BCNet** | **38.4** |
-Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 |
-Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 |
-Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
-**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](scores/stdout_frcnn.txt) |
-FCOS| ResNet-101 FPN | SipMask | 37.8 |
-FCOS| ResNet-101 FPN | BlendMask | 38.4 |
-FCOS| ResNet-101 FPN | CenterMask| 38.3 |
-**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt)|
+Detector | Backbone  | Method | mAP(mask) | Pretrained Model|
+|--------|----------|--------|-----------|-----------|
+Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 | - |
+Faster R-CNN| ResNet-50 FPN | MS R-CNN | 35.6 | - |
+Faster R-CNN| ResNet-50 FPN | PointRend | 36.3 | - |
+Faster R-CNN| ResNet-50 FPN | PANet | 36.6 | - |
+**Faster R-CNN**| **ResNet-50 FPN** | **BCNet** | **38.4** | - |
+Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 | - |
+Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 | - |
+Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 | - |
+**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](scores/stdout_frcnn.txt) | TBD |
+FCOS| ResNet-101 FPN | SipMask | 37.8 | - |
+FCOS| ResNet-101 FPN | BlendMask | 38.4 | - |
+FCOS| ResNet-101 FPN | CenterMask| 38.3 | - |
+**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt)| TBD |
 
 
 Introduction
