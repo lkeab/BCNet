@@ -10,7 +10,7 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 - **Two-stage instance segmentation with state-of-the-art performance.**
 - **Image formation as composition of two overlapping layers.**
 - **Bilayer decoupling for the occluder and occludee.**
-- **Efficacy both on the FCOS and Faster R-CNN detectors.**
+- **Efficacy on both the FCOS and Faster R-CNN detectors.**
 
 **Under construction**. Our code and pretrained model will be fully released in two months.
 
