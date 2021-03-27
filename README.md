@@ -113,13 +113,19 @@ TBD
   #The pretrained models will be downloaded when running the program.
 ```
 
-Multi-GPU Training
+Multi-GPU Training and evaluation on Validation set
 ---------------
 TBD
+```
+bash all.sh
+```
 
-Testing
+Testing on Test-dev
 ---------------
 TBD
+```
+bash eval.sh
+```
 
 <!---
 Install
