@@ -5,7 +5,7 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 
 > [**Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**](https://arxiv.org/abs/2103.12340)           
 > Lei Ke, Yu-Wing Tai, Chi-Keung Tang    
-> *CVPR 2021*  
+> CVPR 2021
 
 - **Two-stage instance segmentation with state-of-the-art performance.**
 - **Image formation as composition of two overlapping layers.**
