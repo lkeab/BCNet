@@ -105,19 +105,19 @@ Prepare for [coco2017](http://cocodataset.org/#home) dataset following [this ins
   ln -s /path_to_coco_dataset/val2017 datasets/coco/val2017
 ```
 
+Multi-GPU Training and evaluation on Validation set
+---------------
+TBD
+```
+bash all.sh
+```
+
 Pretrained Models
 ---------------
 TBD
 ```
   mkdir pretrained_models
   #The pretrained models will be downloaded when running the program.
-```
-
-Multi-GPU Training and evaluation on Validation set
----------------
-TBD
-```
-bash all.sh
 ```
 
 Testing on Test-dev
