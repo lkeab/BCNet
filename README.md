@@ -121,7 +121,7 @@ Pretrained Models
 TBD
 ```
   mkdir pretrained_models
-  #The pretrained models will be downloaded when running the program.
+  #And put the downloaded pretrained models in this directory.
 ```
 
 Testing on Test-dev
