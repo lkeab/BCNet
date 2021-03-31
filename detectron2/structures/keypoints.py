@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 import numpy as np
 from typing import Any, List, Tuple, Union
 import torch

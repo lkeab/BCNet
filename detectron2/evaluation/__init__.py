@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 from .cityscapes_evaluation import CityscapesEvaluator
 from .coco_evaluation import COCOEvaluator
 from .rotated_coco_evaluation import RotatedCOCOEvaluator

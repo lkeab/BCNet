@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 
 import torch
 from torchvision.ops import boxes as box_ops

@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 
 
 # All coco categories, together with their nice-looking visualization colors

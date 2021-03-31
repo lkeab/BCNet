@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 
 import logging
 from fvcore.common.config import CfgNode as _CfgNode

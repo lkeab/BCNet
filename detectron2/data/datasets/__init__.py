@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 from .cityscapes import load_cityscapes_instances
 from .coco import load_coco_json, load_sem_seg
 from .lvis import load_lvis_json, register_lvis_instances, get_lvis_instances_meta

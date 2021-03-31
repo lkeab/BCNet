@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 """
 helper class that supports empty tensors on some nn functions.
 

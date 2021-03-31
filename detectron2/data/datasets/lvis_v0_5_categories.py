@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 # Autogen with
 # with open("lvis_v0.5_val.json", "r") as f:
 #     a = json.load(f)

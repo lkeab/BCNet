@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 """
 This file contains primitives for multi-gpu communication.
 This is useful when doing distributed training.

@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 import copy
 
 from detectron2.data import DatasetCatalog, MetadataCatalog

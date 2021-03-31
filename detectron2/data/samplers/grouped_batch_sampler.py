@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 import numpy as np
 from torch.utils.data.sampler import BatchSampler, Sampler
 
