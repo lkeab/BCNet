@@ -126,7 +126,6 @@ TBD
 
 Testing on Test-dev
 ---------------
-TBD
 ```
 export PYTHONPATH=$PYTHONPATH:`pwd`
 CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
