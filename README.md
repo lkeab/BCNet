@@ -128,7 +128,10 @@ Testing on Test-dev
 ---------------
 TBD
 ```
-bash eval.sh
+export PYTHONPATH=$PYTHONPATH:`pwd`
+CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
+	--config-file configs/fcos/fcos_imprv_R_50_FPN_1x.yaml \
+	--eval-only MODEL.WEIGHTS ../pretrained_models/xxx.pth 2>&1 | tee log/test_log.txt
 ```
 
 <!---
