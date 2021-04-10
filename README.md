@@ -44,11 +44,11 @@ Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 | 
 Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 | 
 Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
-**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](scores/stdout_frcnn.txt), [Pretrained Model] |
+**Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](scores/stdout_frcnn.txt)|
 FCOS| ResNet-101 FPN | SipMask | 37.8 |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 | 
 FCOS| ResNet-101 FPN | CenterMask| 38.3 | 
-**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt), [Pretrained Model]|
+**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51)|
 
 
 Introduction
@@ -117,7 +117,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
 
 Pretrained Models
 ---------------
-Beta-version download:
+Beta-version download: [link](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51)
 ```
   mkdir pretrained_models
   #And put the downloaded pretrained models in this directory.
