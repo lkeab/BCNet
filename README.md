@@ -118,7 +118,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
 
 Pretrained Models
 ---------------
-TBD
+Beta-version download:
 ```
   mkdir pretrained_models
   #And put the downloaded pretrained models in this directory.
