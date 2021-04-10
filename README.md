@@ -7,6 +7,8 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 > Lei Ke, Yu-Wing Tai, Chi-Keung Tang    
 > CVPR 2021
 
+Highlights
+-----------------
 - **Two-stage instance segmentation with state-of-the-art performance.**
 - **Image formation as composition of two overlapping layers.**
 - **Bilayer decoupling for the occluder and occludee.**
