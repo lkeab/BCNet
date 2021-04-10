@@ -75,6 +75,7 @@ conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch
 # FCOS and coco api and visualization dependencies
 pip install ninja yacs cython matplotlib tqdm
 pip install opencv-python==4.4.0.40
+pip install scikit-image
  
 export INSTALL_DIR=$PWD
  
@@ -130,7 +131,7 @@ Testing on Test-dev
 export PYTHONPATH=$PYTHONPATH:`pwd`
 CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
 	--config-file configs/fcos/fcos_imprv_R_101_FPN.yaml \
-	--eval-only MODEL.WEIGHTS ../pretrained_models/xxx.pth 2>&1 | tee log/test_log.txt
+	--eval-only MODEL.WEIGHTS ./pretrained_models/xxx.pth 2>&1 | tee log/test_log.txt
 ```
 
 Citations
