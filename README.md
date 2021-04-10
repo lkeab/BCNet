@@ -75,6 +75,7 @@ conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch
 # FCOS and coco api and visualization dependencies
 pip install ninja yacs cython matplotlib tqdm
 pip install opencv-python==4.4.0.40
+# Boundary dependency
 pip install scikit-image
  
 export INSTALL_DIR=$PWD
