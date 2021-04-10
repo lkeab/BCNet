@@ -129,42 +129,9 @@ Testing on Test-dev
 ```
 export PYTHONPATH=$PYTHONPATH:`pwd`
 CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
-	--config-file configs/fcos/fcos_imprv_R_50_FPN_1x.yaml \
+	--config-file configs/fcos/fcos_imprv_R_101_FPN.yaml \
 	--eval-only MODEL.WEIGHTS ../pretrained_models/xxx.pth 2>&1 | tee log/test_log.txt
 ```
-
-<!---
-Install
------------------
-  Check [INSTALL.md](INSTALL.md) for installation instructions.
-Prepare Data
-----------------
-```
-  mkdir -p datasets/coco
-  ln -s /path_to_coco_dataset/annotations datasets/coco/annotations
-  ln -s /path_to_coco_dataset/train2014 datasets/coco/train2014
-  ln -s /path_to_coco_dataset/test2014 datasets/coco/test2014
-  ln -s /path_to_coco_dataset/val2014 datasets/coco/val2014
-```
-Pretrained Models
----------------
-```
-  mkdir pretrained_models
-  #The pretrained models will be downloaded when running the program.
-```
-My training log and pre-trained models can be found here [link](https://1drv.ms/f/s!AntfaTaAXHobhkCKfcPPQQfOfFAB) or [link](https://pan.baidu.com/s/192lRQozksu5XwpU9EO5neg)(pw:xm3f).
-Running
-----------------
-Single GPU Training
-```
-  python tools/train_net.py --config-file "configs/e2e_ms_rcnn_R_50_FPN_1x.yaml" SOLVER.IMS_PER_BATCH 2 SOLVER.BASE_LR 0.0025 SOLVER.MAX_ITER 720000 SOLVER.STEPS "(480000, 640000)" TEST.IMS_PER_BATCH 1
-```
-Multi-GPU Training
-```
-  export NGPUS=8
-  python -m torch.distributed.launch --nproc_per_node=$NGPUS tools/train_net.py --config-file "configs/e2e_ms_rcnn_R_50_FPN_1x.yaml" 
-```
--->
 
 Citations
 ---------------

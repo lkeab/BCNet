@@ -1,0 +1,52 @@
+MODEL:
+  META_ARCHITECTURE: "FCOS"
+  MASK_ON: True
+  BACKBONE:
+    NAME: "build_retinanet_resnet_fpn_backbone"
+  RESNETS:
+    OUT_FEATURES: ["res3", "res4", "res5"]
+  FPN:
+    IN_FEATURES: ["res3", "res4", "res5"]
+  #RPN_ONLY: True
+  #FCOS_ON: True
+  #RESNETS:
+  #  BACKBONE_OUT_CHANNELS: 256
+  #RETINANET:
+  #  USE_C5: False # FCOS uses P5 instead of C5
+  FCOS:
+    # normalizing the regression targets with FPN strides
+    NORM_REG_TARGETS: True
+    # positioning centerness on the regress branch.
+    # Please refer to https://github.com/tianzhi0549/FCOS/issues/89#issuecomment-516877042
+    CENTERNESS_ON_REG: True
+    # using center sampling and GIoU. 
+    # Please refer to https://github.com/yqyao/FCOS_PLUS
+    CENTER_SAMPLING_RADIUS: 1.5
+    IOU_LOSS_TYPE: "giou"
+    INFERENCE_TH: 0.03
+    
+    TRAIN_PART: 'all' # 'voc', 'non_voc', 'all' 
+    
+  ROI_HEADS:
+    IOU_THRESHOLDS: [0.5]
+    IOU_LABELS: [0, 1]
+    
+  ROI_MASK_HEAD:
+    NAME: "MaskRCNNConvUpsampleHead"
+    NUM_CONV: 4
+    POOLER_RESOLUTION: 14
+DATASETS:
+  TRAIN: ("coco_2017_train",)
+  #TEST: ("coco_2017_val",)
+  #TEST: ("coco_2017_occ",)
+  TEST: ("coco_2017_test-dev",)
+SOLVER:
+  IMS_PER_BATCH: 16
+  BASE_LR: 0.01  # Note that RetinaNet uses a different default learning rate
+  STEPS: (210000, 250000)
+  MAX_ITER: 270000
+INPUT:
+  MIN_SIZE_TRAIN: (640, 672, 704, 736, 768, 800)
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MAX_SIZE_TEST: 1333
