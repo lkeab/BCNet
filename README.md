@@ -12,9 +12,6 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 - **Bilayer decoupling for the occluder and occludee.**
 - **Efficacy on both the FCOS and Faster R-CNN detectors.**
 
-**Under construction**. Our code and pretrained model will be fully released in two months.
-
-
 Visualization of Occluded Objects
 -----------------
 <table>
@@ -151,4 +148,4 @@ License
 ---------------
 BCNet is released under the MIT license. See [LICENSE](LICENSE) for additional details.
 Thanks to the Third Party Libs
-[detectron2](https://github.com/facebookresearch/detectron2)    
+[detectron2](https://github.com/facebookresearch/detectron2).    
