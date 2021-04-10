@@ -48,7 +48,7 @@ Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
 FCOS| ResNet-101 FPN | SipMask | 37.8 |
 FCOS| ResNet-101 FPN | BlendMask | 38.4 | 
 FCOS| ResNet-101 FPN | CenterMask| 38.3 | 
-**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51)|
+**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
 
 
 Introduction
