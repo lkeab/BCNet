@@ -133,6 +133,12 @@ CUDA_VISIBLE_DEVICES=0,1 python3 tools/train_net.py --num-gpus 2 \
 	--eval-only MODEL.WEIGHTS ./pretrained_models/xxx.pth 2>&1 | tee log/test_log.txt
 ```
 
+Visualization
+---------------
+```
+bash visualize.sh
+```
+
 Citations
 ---------------
 If you find BCNet useful in your research, please star this repository and consider citing:
