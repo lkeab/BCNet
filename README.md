@@ -150,6 +150,9 @@ If you find BCNet useful in your research, please star this repository and consi
     year = {2021},
 }   
 ```
+Related Links
+---------------
+[Media Report](https://zhuanlan.zhihu.com/p/359610583)
 
 License
 ---------------
