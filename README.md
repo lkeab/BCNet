@@ -139,6 +139,12 @@ Visualization
 bash visualize.sh
 ```
 
+Reference script for producing bilayer annotation
+---------------
+```
+bash process.sh
+```
+
 Citations
 ---------------
 If you find BCNet useful in your research, please star this repository and consider citing:

@@ -218,8 +218,8 @@ Category ids in annotations are not in [1, #categories]! We'll apply a mapping f
             seg_list.append(obj['segmentation'])
         #print('seg list:', seg_list)
 
-        dirname = "mask-vis"
-        os.makedirs(dirname, exist_ok=True)
+        #dirname = "mask-vis"
+        #os.makedirs(dirname, exist_ok=True)
 
         bitmask_list = []
         if len(seg_list) > 0:
@@ -296,16 +296,16 @@ Category ids in annotations are not in [1, #categories]! We'll apply a mapping f
                     record["annotations"][index1]['bg_object_segmentation'].append(segmentation)
 
         dataset_dicts.append(record)
-        if jdex > 10000:
-            break
+        #if jdex > 10000:
+        #    break
 
-    print('sum intersect rate:', intersect_rate)
-    print('sum box:', sum_box)
+    #print('sum intersect rate:', intersect_rate)
+    #print('sum box:', sum_box)
 
     avg_intersect_rate = intersect_rate/float(sum_box)
     avg_intersect_rate_over_inter = intersect_rate/float(intersect_num)
-    print('avg rate:', avg_intersect_rate)
-    print('avg rate over intersect:', avg_intersect_rate_over_inter)
+    #print('avg rate:', avg_intersect_rate)
+    #print('avg rate over intersect:', avg_intersect_rate_over_inter)
 
     if num_instances_without_valid_segmentation > 0:
         logger.warning(
@@ -579,10 +579,10 @@ if __name__ == "__main__":
     logger.info("Done loading {} samples.".format(len(dicts)))
     coco_dict = convert_to_coco_dict(dicts, sys.argv[3])
     #output_file = 'instances_train_2017_transform_slight_map.json'
-    #output_file = 'test.json'
-    #with open(output_file, "w") as json_file:
-    #    logger.info(f"Caching annotations in COCO format: {output_file}")
-    #    json.dump(coco_dict, json_file)
+    output_file = 'ann.json'
+    with open(output_file, "w") as json_file:
+        logger.info(f"Caching annotations in COCO format: {output_file}")
+        json.dump(coco_dict, json_file)
 
 
     '''
