@@ -139,8 +139,7 @@ Visualization
 bash visualize.sh
 ```
 
-Reference script for producing bilayer annotation
----------------
+Reference script for producing bilayer mask annotation:
 ```
 bash process.sh
 ```
