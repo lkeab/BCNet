@@ -158,7 +158,7 @@ If you find BCNet useful in your research, please star this repository and consi
 ```
 Related Links
 ---------------
-[Media Report](https://zhuanlan.zhihu.com/p/359610583)
+[Media Report (Chinese)](https://zhuanlan.zhihu.com/p/359610583)
 
 License
 ---------------
