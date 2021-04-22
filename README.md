@@ -11,7 +11,7 @@ Highlights
 -----------------
 - **BCNet:** Two-stage instance segmentation with state-of-the-art performance on COCO.
 - **Novelty:** Explicit occlusion modeling with bilayer decouple for the occluder and occludee.
-- **Efficacy:** Validation both the FCOS (anchor-free) and Faster R-CNN (anchor-based) detectors.
+- **Efficacy:** Large improvement both the FCOS (anchor-free) and Faster R-CNN (anchor-based) detectors.
 - Simple and easy to use.
 
 Visualization of Occluded Objects
