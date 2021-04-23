@@ -146,7 +146,7 @@ Reference script for producing bilayer mask annotation:
 bash process.sh
 ```
 
-Citations
+Citation
 ---------------
 If you find BCNet useful in your research, please star this repository and consider citing:
 ```
