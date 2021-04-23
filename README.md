@@ -38,19 +38,19 @@ Results on COCO test-dev
 (Check Table 8 of the paper for full results, all methods are trained on COCO train2017)
 Detector | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
-Faster R-CNN| ResNet-50 FPN | Mask R-CNN | 34.2 |
-Faster R-CNN| ResNet-50 FPN | MS R-CNN | 35.6 |
-Faster R-CNN| ResNet-50 FPN | PointRend | 36.3 |
-Faster R-CNN| ResNet-50 FPN | PANet | 36.6 |
+Faster R-CNN| ResNet-50 FPN | Mask R-CNN (ICCV'17) | 34.2 |
+Faster R-CNN| ResNet-50 FPN | MS R-CNN (CVPR'19) | 35.6 |
+Faster R-CNN| ResNet-50 FPN | PointRend (CVPR'20) | 36.3 |
+Faster R-CNN| ResNet-50 FPN | PANet (CVPR'18) | 36.6 |
 **Faster R-CNN**| **ResNet-50 FPN** | **BCNet** | [**38.4**](scores/stdout_r50_frcnn.txt) | 
-Faster R-CNN| ResNet-101 FPN | Mask R-CNN | 36.1 | 
-Faster R-CNN| ResNet-101 FPN | BMask R-CNN | 37.7 | 
-Faster R-CNN| ResNet-101 FPN | MS R-CNN | 38.3 |
+Faster R-CNN| ResNet-101 FPN | Mask R-CNN (ICCV'17) | 36.1 | 
+Faster R-CNN| ResNet-101 FPN | BMask R-CNN (ECCV'20) | 37.7 | 
+Faster R-CNN| ResNet-101 FPN | MS R-CNN (CVPR'19) | 38.3 |
 **Faster R-CNN**|**ResNet-101 FPN** | **BCNet** | [**39.8**](scores/stdout_frcnn.txt)|
-FCOS| ResNet-101 FPN | SipMask | 37.8 |
-FCOS| ResNet-101 FPN | BlendMask | 38.4 | 
-FCOS| ResNet-101 FPN | CenterMask| 38.3 | 
-**FCOS**| **ResNet-101 FPN**| **BCNet** | [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
+FCOS| ResNet-101 FPN | SipMask (ECCV'20) | 37.8 |
+FCOS| ResNet-101 FPN | BlendMask (CVPR'20) | 38.4 | 
+FCOS| ResNet-101 FPN | CenterMask (CVPR'20)| 38.3 | 
+**FCOS**| **ResNet-101 FPN**| **BCNet (CVPR'21)**| [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
 
 
 Introduction
