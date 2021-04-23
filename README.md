@@ -154,7 +154,7 @@ If you find BCNet useful in your research, please star this repository and consi
     author = {Ke, Lei and Tai, Yu-Wing and Tang, Chi-Keung},
     title = {Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers},
     booktitle = {CVPR},
-    year = {2021},
+    year = {2021}
 }   
 ```
 Related Links
