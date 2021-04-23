@@ -9,7 +9,7 @@ This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/210
 
 Highlights
 -----------------
-- **BCNet:** Two-stage (detect-then-segment) instance segmentation with state-of-the-art performance on COCO.
+- **BCNet:** Two/one-stage (detect-then-segment) instance segmentation with state-of-the-art performance on COCO.
 - **Novelty:** Explicit occlusion modeling with bilayer decouple for the occluder and occludee.
 - **Efficacy:** Large improvement both the FCOS (anchor-free) and Faster R-CNN (anchor-based) detectors.
 - **Simple:** Small additional computation burden and easy to use.
