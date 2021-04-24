@@ -26,7 +26,7 @@ Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and
 </table>
 <table>
     <tr>
-          <td><center><img src="figures/fig_vis1_new.png" height="160">
+          <td><center><img src="figures/fig_vis1_new.png" height="260">
               
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector.
           </center></td>
@@ -62,7 +62,7 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
           <td><center><img src="figures/framework_new.png" height="400"></center></td>
     </tr>
     <tr>
-          <td><center><img src="figures/netcompare.png" height="400"></center></td>
+          <td><center><img src="figures/netcompare.png" height="200"></center></td>
     </tr>
 </table>
 </center>
