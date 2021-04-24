@@ -61,6 +61,9 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
     <tr>
           <td><center><img src="figures/framework_new.png" height="400"></center></td>
     </tr>
+    <tr>
+          <td><center><img src="figures/netcompare.png.png" height="400"></center></td>
+    </tr>
 </table>
 </center>
 
