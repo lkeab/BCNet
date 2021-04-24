@@ -61,6 +61,9 @@ Segmenting highly-overlapping objects is challenging, because typically no disti
     <tr>
           <td><center><img src="figures/framework_new.png" height="430"></center></td>
     </tr>
+</table>
+A brief comparison of mask head architectures, see our paper for full details.
+<table>	
     <tr>
           <td><center><img src="figures/netcompare.png" height="270"></center></td>
     </tr>
