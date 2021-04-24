@@ -26,7 +26,7 @@ Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and
 </table>
 <table>
     <tr>
-          <td><center><img src="figures/fig_vis1_new.png" height="260">
+          <td><center><img src="figures/fig_vis1_new.png" height="160">
               
 Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and FCOS detector.
           </center></td>
