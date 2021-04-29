@@ -165,7 +165,7 @@ If you find BCNet useful in your research, please star this repository and consi
 ```
 Related Links
 ---------------
-[Media Report (Chinese) by CVMart](https://zhuanlan.zhihu.com/p/359610583) | [Media Report (Chinese) by 52CV](https://zhuanlan.zhihu.com/p/366630524) | [CVer(Chinese)](https://zhuanlan.zhihu.com/p/367800052)
+[Media Report (Chinese) by CVMart](https://zhuanlan.zhihu.com/p/359610583) | [Media Report (Chinese) by 52CV](https://zhuanlan.zhihu.com/p/366630524) | [CVer (Chinese)](https://zhuanlan.zhihu.com/p/367800052)
 
 License
 ---------------
