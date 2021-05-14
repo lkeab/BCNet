@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-occlusion-aware-instance-segmentation/instance-segmentation-on-coco)](https://paperswithcode.com/sota/instance-segmentation-on-coco?p=deep-occlusion-aware-instance-segmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-occlusion-aware-instance-segmentation/instance-segmentation-on-kins)](https://paperswithcode.com/sota/instance-segmentation-on-kins?p=deep-occlusion-aware-instance-segmentation)
 
 This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/2103.12340) built on the open-source detectron2.
 
