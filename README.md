@@ -157,7 +157,7 @@ bash process.sh
 
 Citation
 ---------------
-If you find BCNet useful in your research, please star this repository and consider citing:
+If you find BCNet useful in your research or refer to the provided baseline results, please star this repository and consider citing:
 ```
 @inproceedings{ke2021bcnet,
     author = {Ke, Lei and Tai, Yu-Wing and Tang, Chi-Keung},
