@@ -168,6 +168,8 @@ If you find BCNet useful in your research or refer to the provided baseline resu
 ```
 Related Links
 ---------------
+[Youtube Video](https://www.youtube.com/watch?v=iHlGJppJGiQ)
+
 [Media Report (Chinese) by CVMart](https://zhuanlan.zhihu.com/p/359610583) | [Media Report (Chinese) by 52CV](https://zhuanlan.zhihu.com/p/366630524) | [CVer (Chinese)](https://zhuanlan.zhihu.com/p/367800052)
 
 License
