@@ -44,7 +44,7 @@ Detector | Backbone  | Method | mAP(mask) |
 Faster R-CNN| ResNet-50 FPN | Mask R-CNN (ICCV'17) | 34.2 |
 Faster R-CNN| ResNet-50 FPN | PANet (CVPR'18) | 36.6 |
 Faster R-CNN| ResNet-50 FPN | MS R-CNN (CVPR'19) | 35.6 |
-Faster R-CNN| ResNet-50 FPN | PointRend (CVPR'20) | 36.3 |
+Faster R-CNN| ResNet-50 FPN | PointRend (1x CVPR'20) | 36.3 |
 **Faster R-CNN**| **ResNet-50 FPN** | **BCNet (CVPR'21)** | [**38.4**](scores/stdout_r50_frcnn.txt) | 
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN (ICCV'17) | 36.1 | 
 Faster R-CNN| ResNet-101 FPN | MS R-CNN (CVPR'19) | 38.3 |
