@@ -168,7 +168,7 @@ If you find BCNet useful in your research or refer to the provided baseline resu
 ```
 Related Links
 ---------------
-[Youtube Video](https://www.youtube.com/watch?v=iHlGJppJGiQ) | [Poster](http://www.kelei.site/poster/BCNet_CVPR21.pdf)
+[Youtube Video](https://www.youtube.com/watch?v=iHlGJppJGiQ) | [Poster](http://www.kelei.site/poster/BCNet_CVPR21.pdf)|
 [Zhihu, Chinese](https://zhuanlan.zhihu.com/p/378269087)
 
 [Media Report (Chinese) by arxivDaily](https://zhuanlan.zhihu.com/p/374377332) | [CVMart (Chinese)](https://zhuanlan.zhihu.com/p/359610583) | [52CV (Chinese)](https://zhuanlan.zhihu.com/p/366630524) | [CVer (Chinese)](https://zhuanlan.zhihu.com/p/367800052)
