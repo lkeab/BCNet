@@ -4,7 +4,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-occlusion-aware-instance-segmentation/instance-segmentation-on-coco)](https://paperswithcode.com/sota/instance-segmentation-on-coco?p=deep-occlusion-aware-instance-segmentation)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-occlusion-aware-instance-segmentation/instance-segmentation-on-kins)](https://paperswithcode.com/sota/instance-segmentation-on-kins?p=deep-occlusion-aware-instance-segmentation)
 
-This is the official pytorch implementation of [BCNet](https://arxiv.org/abs/2103.12340) built on the open-source detectron2.
+This is the official pytorch implementation of [BCNet](https://openaccess.thecvf.com/content/CVPR2021/papers/Ke_Deep_Occlusion-Aware_Instance_Segmentation_With_Overlapping_BiLayers_CVPR_2021_paper.pdf) built on the open-source detectron2.
 
 > [**Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**](https://arxiv.org/abs/2103.12340)           
 > Lei Ke, Yu-Wing Tai, Chi-Keung Tang  
