@@ -6,7 +6,7 @@
 
 This is the official pytorch implementation of [BCNet](https://openaccess.thecvf.com/content/CVPR2021/papers/Ke_Deep_Occlusion-Aware_Instance_Segmentation_With_Overlapping_BiLayers_CVPR_2021_paper.pdf) built on the open-source detectron2.
 
-> [**Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**](https://arxiv.org/abs/2103.12340)           
+> [**Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**](https://openaccess.thecvf.com/content/CVPR2021/papers/Ke_Deep_Occlusion-Aware_Instance_Segmentation_With_Overlapping_BiLayers_CVPR_2021_paper.pdf)           
 > Lei Ke, Yu-Wing Tai, Chi-Keung Tang  
 > CVPR 2021
 
