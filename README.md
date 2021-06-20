@@ -49,10 +49,10 @@ Faster R-CNN| ResNet-50 FPN | PointRend (1x CVPR'20) | 36.3 |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN (ICCV'17) | 36.1 | 
 Faster R-CNN| ResNet-101 FPN | MS R-CNN (CVPR'19) | 38.3 |
 Faster R-CNN| ResNet-101 FPN | BMask R-CNN (ECCV'20) | 37.7 | 
+**Faster R-CNN**|**ResNet-101 FPN** | **BCNet (CVPR'21)** | [**39.8**](scores/stdout_frcnn.txt)|
 
 Detector(**One-stage**) | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
-**Faster R-CNN**|**ResNet-101 FPN** | **BCNet (CVPR'21)** | [**39.8**](scores/stdout_frcnn.txt)|
 FCOS| ResNet-101 FPN | BlendMask (CVPR'20) | 38.4 | 
 FCOS| ResNet-101 FPN | CenterMask (CVPR'20)| 38.3 | 
 FCOS| ResNet-101 FPN | SipMask (ECCV'20) | 37.8 |
