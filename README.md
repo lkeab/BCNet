@@ -39,7 +39,7 @@ Qualitative instance segmentation results of our BCNet, using ResNet-101-FPN and
 Results on COCO test-dev
 ------------
 (Check Table 8 of the paper for full results, all methods are trained on COCO train2017)
-Detector | Backbone  | Method | mAP(mask) |
+Detector(Two-stage) | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
 Faster R-CNN| ResNet-50 FPN | Mask R-CNN (ICCV'17) | 34.2 |
 Faster R-CNN| ResNet-50 FPN | PANet (CVPR'18) | 36.6 |
@@ -49,6 +49,9 @@ Faster R-CNN| ResNet-50 FPN | PointRend (1x CVPR'20) | 36.3 |
 Faster R-CNN| ResNet-101 FPN | Mask R-CNN (ICCV'17) | 36.1 | 
 Faster R-CNN| ResNet-101 FPN | MS R-CNN (CVPR'19) | 38.3 |
 Faster R-CNN| ResNet-101 FPN | BMask R-CNN (ECCV'20) | 37.7 | 
+
+Detector(Two-stage) | Backbone  | Method | mAP(mask) |
+|--------|----------|--------|-----------|
 **Faster R-CNN**|**ResNet-101 FPN** | **BCNet (CVPR'21)** | [**39.8**](scores/stdout_frcnn.txt)|
 FCOS| ResNet-101 FPN | BlendMask (CVPR'20) | 38.4 | 
 FCOS| ResNet-101 FPN | CenterMask (CVPR'20)| 38.3 | 
