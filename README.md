@@ -174,6 +174,7 @@ Related Links
 [Youtube Video](https://www.youtube.com/watch?v=iHlGJppJGiQ) | [Poster](http://www.kelei.site/poster/BCNet_CVPR21.pdf)|
 [Zhihu Reading](https://zhuanlan.zhihu.com/p/378269087)
 
+Related Work on partially supervised instance segmentation: [CPMask](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530375.pdf)
 
 [Media Report (Chinese) by arxivDaily](https://zhuanlan.zhihu.com/p/374377332) | [CVMart (Chinese)](https://zhuanlan.zhihu.com/p/359610583) | [52CV (Chinese)](https://zhuanlan.zhihu.com/p/366630524) | [CVer (Chinese)](https://zhuanlan.zhihu.com/p/367800052)
 
