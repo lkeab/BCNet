@@ -183,4 +183,8 @@ License
 ---------------
 BCNet is released under the MIT license. See [LICENSE](LICENSE) for additional details.
 Thanks to the Third Party Libs
-[detectron2](https://github.com/facebookresearch/detectron2).    
+[detectron2](https://github.com/facebookresearch/detectron2).   
+
+Questions
+---------------
+Leave github issues or please contact 'lkeab@cse.ust.hk'
