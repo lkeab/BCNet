@@ -57,7 +57,7 @@ Detector (One-stage) | Backbone  | Method | mAP(mask) |
 FCOS| ResNet-R101 FPN | BlendMask (CVPR'20) | 38.4 | 
 FCOS| ResNet-R101 FPN | CenterMask (CVPR'20) | 38.3 | 
 FCOS| ResNet-R101 FPN | SipMask (ECCV'20) | 37.8 |
-FCOS| ResNet-R101 FPN | **BCNet (CVPR'21)**| [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
+**FCOS**| ResNet-R101 FPN | **BCNet (CVPR'21)**| [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
 FCOS|ResNet-X101 FPN| BCNet (CVPR'21) | [41.2](scores/stdout_fcos_x101.txt) |
 
 Introduction
