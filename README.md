@@ -41,24 +41,24 @@ Results on COCO test-dev
 (Check Table 8 of the paper for full results, all methods are trained on COCO train2017)
 Detector(Two-stage) | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
-Faster R-CNN| ResNet-R50 FPN | Mask R-CNN (ICCV'17) | 34.2 |
-Faster R-CNN| ResNet-R50 FPN | PANet (CVPR'18) | 36.6 |
-Faster R-CNN| ResNet-R50 FPN | MS R-CNN (CVPR'19) | 35.6 |
-Faster R-CNN| ResNet-R50 FPN | PointRend (1x CVPR'20) | 36.3 |
-**Faster R-CNN**| **ResNet-R50 FPN** | **BCNet (CVPR'21)** | [**38.4**](scores/stdout_r50_frcnn.txt) | 
-Faster R-CNN| ResNet-R101 FPN | Mask R-CNN (ICCV'17) | 36.1 | 
-Faster R-CNN| ResNet-R101 FPN | MS R-CNN (CVPR'19) | 38.3 |
-Faster R-CNN| ResNet-R101 FPN | BMask R-CNN (ECCV'20) | 37.7 | 
-**Box-free** | ResNet-R101 FPN | SOLOv2 (NeurIPS'20) | 39.7 | 
-**Faster R-CNN**|**ResNet-R101 FPN** | **BCNet (CVPR'21)** | [**39.8**](scores/stdout_frcnn.txt)|
+Faster R-CNN| Res-R50-FPN | Mask R-CNN (ICCV'17) | 34.2 |
+Faster R-CNN| Res-R50-FPN | PANet (CVPR'18) | 36.6 |
+Faster R-CNN| Res-R50-FPN | MS R-CNN (CVPR'19) | 35.6 |
+Faster R-CNN| Res-R50-FPN | PointRend (1x CVPR'20) | 36.3 |
+**Faster R-CNN**| **Res-R50-FPN** | **BCNet (CVPR'21)** | [**38.4**](scores/stdout_r50_frcnn.txt) | 
+Faster R-CNN| Res-R101-FPN | Mask R-CNN (ICCV'17) | 36.1 | 
+Faster R-CNN| Res-R101-FPN | MS R-CNN (CVPR'19) | 38.3 |
+Faster R-CNN| Res-R101-FPN | BMask R-CNN (ECCV'20) | 37.7 | 
+**Box-free** | Res-R101-FPN | SOLOv2 (NeurIPS'20) | 39.7 | 
+**Faster R-CNN**|**Res-R101-FPN** | **BCNet (CVPR'21)** | [**39.8**](scores/stdout_frcnn.txt)|
 
 Detector(One-stage) | Backbone | Method | mAP(mask) |
 |--------|----------|--------|-----------|
-FCOS| ResNet-R101 FPN | BlendMask (CVPR'20) | 38.4 | 
-FCOS| ResNet-R101 FPN | CenterMask (CVPR'20) | 38.3 | 
-FCOS| ResNet-R101 FPN | SipMask (ECCV'20) | 37.8 |
-**FCOS**| ResNet-R101 FPN | **BCNet (CVPR'21)**| [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
-FCOS|ResNet-X101 FPN| BCNet (CVPR'21) | [41.2](scores/stdout_fcos_x101.txt) |
+FCOS| Res-R101-FPN | BlendMask (CVPR'20) | 38.4 | 
+FCOS| Res-R101-FPN | CenterMask (CVPR'20) | 38.3 | 
+FCOS| Res-R101-FPN | SipMask (ECCV'20) | 37.8 |
+**FCOS**| Res-R101-FPN | **BCNet (CVPR'21)**| [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
+FCOS|Res-X101 FPN| BCNet (CVPR'21) | [41.2](scores/stdout_fcos_x101.txt) |
 
 Introduction
 -----------------
