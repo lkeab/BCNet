@@ -52,7 +52,7 @@ Faster R-CNN| ResNet-R101 FPN | BMask R-CNN (ECCV'20) | 37.7 |
 **Box-free** | ResNet-R101 FPN | SOLOv2 (NeurIPS'20) | 39.7 | 
 **Faster R-CNN**|**ResNet-R101 FPN** | **BCNet (CVPR'21)** | [**39.8**](scores/stdout_frcnn.txt)|
 
-Detector(One-stage) | Backbone  | Method | mAP(mask) |
+Detector (One-stage) | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
 FCOS| ResNet-R101 FPN | BlendMask (CVPR'20) | 38.4 | 
 FCOS| ResNet-R101 FPN | CenterMask (CVPR'20) | 38.3 | 
