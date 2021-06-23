@@ -55,7 +55,7 @@ Faster R-CNN| ResNet-101 FPN | BMask R-CNN (ECCV'20) | 37.7 |
 Detector(One-stage) | Backbone  | Method | mAP(mask) |
 |--------|----------|--------|-----------|
 FCOS| ResNet-101 FPN | BlendMask (CVPR'20) | 38.4 | 
-FCOS| ResNet-101 FPN | CenterMask (CVPR'20)| 38.3 | 
+FCOS| ResNet-101 FPN | CenterMask (CVPR'20) | 38.3 | 
 FCOS| ResNet-101 FPN | SipMask (ECCV'20) | 37.8 |
 **FCOS**| **ResNet-101 FPN**| **BCNet (CVPR'21)**| [**39.6**](scores/stdout_fcos.txt), [Pretrained Model](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EfiDFLLEawFJpruwuOl3h3ABBjAKysTf0qJQU80iaKbqYg?e=igzC51), [Submission File](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/EVgMSMFwOmVDjAIB3LFusAMBTyTY-N_6qWbAWEBq_PK9xQ?e=5Lrmv7)|
 
