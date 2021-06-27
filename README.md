@@ -13,7 +13,7 @@ This is the official pytorch implementation of [BCNet](https://openaccess.thecvf
 Highlights
 -----------------
 - **BCNet:** Two/one-stage (detect-then-segment) instance segmentation with state-of-the-art performance.
-- **Novelty:** A new mask head design: Explicit occlusion modeling with **bilayer decouple (object boundary and mask)** for the occluder and occludee in the same RoI.
+- **Novelty:** A new mask head design, explicit occlusion modeling with **bilayer decouple (object boundary and mask)** for the occluder and occludee in the same RoI.
 - **Efficacy:** Large improvements both the FCOS (anchor-free) and Faster R-CNN (anchor-based) detectors.
 - **Simple:** Small additional computation burden and easy to use.
 
