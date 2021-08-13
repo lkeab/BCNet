@@ -160,6 +160,10 @@ Reference script for producing bilayer mask annotation:
 bash process.sh
 ```
 
+The COCO-OCC split:
+---------------
+The COCO-OCC split download: [link](https://hkustconnect-my.sharepoint.com/:u:/g/personal/lkeab_connect_ust_hk/Eee8WYEY4plIko4X5ej4ahYBB28FEHfxxolxtEkhF8QbRg?e=5d000r), which is detailed described in paper.
+
 Citation
 ---------------
 If you find BCNet useful in your research or refer to the provided baseline results, please star this repository and consider citing:
