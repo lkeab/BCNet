@@ -174,7 +174,16 @@ If you find BCNet useful in your research or refer to the provided baseline resu
     title = {Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers},
     booktitle = {CVPR},
     year = {2021}
-}   
+}  
+```
+Related occlusion handling work:
+```
+@inproceedings{ke2021voin,
+  author = {Ke, Lei and Tai, Yu-Wing and Tang, Chi-Keung},
+  title = {Occlusion-Aware Video Object Inpainting},
+  booktitle = {ICCV},
+  year = {2021}
+}
 ```
 Related Links
 ---------------
