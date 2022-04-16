@@ -175,6 +175,7 @@ If you find BCNet useful in your research or refer to the provided baseline resu
     booktitle = {CVPR},
     year = {2021}
 }  
+```
 Related high-quality instance segmentation work:
 ```
 @inproceedings{transfiner,
@@ -183,6 +184,8 @@ Related high-quality instance segmentation work:
     booktitle = {CVPR},
     year = {2022}
 }
+```
+
 Related occlusion handling work:
 ```
 @inproceedings{ke2021voin,
