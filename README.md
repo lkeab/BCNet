@@ -175,7 +175,14 @@ If you find BCNet useful in your research or refer to the provided baseline resu
     booktitle = {CVPR},
     year = {2021}
 }  
+Related high-quality instance segmentation work:
 ```
+@inproceedings{transfiner,
+    author={Ke, Lei and Danelljan, Martin and Li, Xia and Tai, Yu-Wing and Tang, Chi-Keung and Yu, Fisher},
+    title={Mask Transfiner for High-Quality Instance Segmentation},
+    booktitle = {CVPR},
+    year = {2022}
+}
 Related occlusion handling work:
 ```
 @inproceedings{ke2021voin,
